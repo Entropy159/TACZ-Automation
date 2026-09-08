@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.entropy159.taczautomation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RecipeManagerMixin",
+    "RecipeMatchMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
